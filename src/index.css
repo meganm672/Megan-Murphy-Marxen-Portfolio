@@ -1,3 +1,7 @@
+body{
+    background-color: lightblue;
+}
+
 @keyframes slide {
     from {
         transform: translateX(0);
@@ -11,7 +15,7 @@
 .logos {
     overflow: hidden;
     padding: 60px 0;
-    background: white;
+    background: lightblue;
     white-space: nowrap;
     position: relative;
 }
@@ -28,12 +32,12 @@
 
 .logos:before {
     left: 0;
-    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), lightblue);
 }
 
 .logos:after {
     right: 0;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), lightblue);
 }
 
 .logos:hover .skillsContainer {
@@ -43,4 +47,7 @@
 .skillsContainer {
     display: inline-block;
     animation: 35s slide infinite linear;
+}
+.footerContainer{
+    background-color: rgb(129, 215, 244);
 }

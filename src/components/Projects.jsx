@@ -21,7 +21,7 @@ const Projects = () => {
             <Box>
                 <Grid container spacing={4} >
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 401, minHeight: 401, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={WhiskerWorld}
@@ -34,7 +34,7 @@ const Projects = () => {
                                     A fullstack cat e-commerce application.
                                 </Typography>
                                 <br/>
-                                <Typography variant='body2'>Javascript | React | MaterialUI | Node | HTML | CSS | React Router | Prisma | Jest | Express | Bcrypt | Jest</Typography>
+                                <Typography variant='body2'>Javascript | React | MaterialUI | Node | HTML | CSS | React Router | Prisma | Jest | Express | Bcrypt | Jest | Postman</Typography>
                             </CardContent>
                             <CardActions>
                                 <Link href="https://whisker-world.onrender.com/" target="_blank">
@@ -51,7 +51,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 401, minHeight: 401, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={Juicebox}
@@ -64,7 +64,7 @@ const Projects = () => {
                                     Fully Operational CRUD API with Express.JS and Prisma to create a Tumblr-like website.
                                 </Typography>
                                 <br/>
-                                <Typography variant='body2'>Javascript | Express | Node | Prisma | PostgreSQL | Bcrypt </Typography>
+                                <Typography variant='body2'>Javascript | Express | Node | Prisma | PostgreSQL | Bcrypt | Postman</Typography>
                             </CardContent>
                             <CardActions>
                                 <Link href="https://github.com/meganm672/Juicebox-Revamped" target="_blank">
@@ -77,7 +77,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 401, minHeight: 401, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={BookBuddies}
@@ -107,7 +107,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 401, minHeight: 401, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={PuppyBowl}

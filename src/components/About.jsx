@@ -5,17 +5,17 @@ import MeganMurphyMarxen from "../assets/MeganMurphyMarxen.jpg"
 const About = () => {
     return (
         <>
-        <Typography variant='h1' className="hello">
+        <Typography variant='h1' className="hello" sx={{textAlign:"center"}}>
         HELLO!
         </Typography>
-       <Typography variant='h2'>I'm Megan.</Typography>
+       <Typography variant='h2' sx={{textAlign:"center"}}>I'm Megan.</Typography>
   
-        <Box className="aboutContainer">
-          <Box className="selfContainer" >
+        <Box className="aboutContainer" >
+          <Box className="selfContainer" sx={{textAlign:"center"}}>
         <img className="image" src={MeganMurphyMarxen} />
           </Box>
           <Box className="aboutParagraphs">
-            <Typography variant='h2' className="sectionTitle">About Me </Typography>
+            <Typography variant='h2' className="sectionTitle" sx={{textAlign:"center"}}>About Me </Typography>
             <Box>
               <Typography variant='body1'>
                 I am a passionate fullstack developer that is excited about creating
