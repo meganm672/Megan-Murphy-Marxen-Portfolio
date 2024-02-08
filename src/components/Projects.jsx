@@ -17,11 +17,10 @@ import Grid from '@mui/material/Grid';
 const Projects = () => {
     return (
         <>
-            <Typography variant='h3'>PROJECTS</Typography>
+            <Typography variant='h3' sx={{textAlign:"center"}}>PROJECTS</Typography>
             <Box>
-                <Grid container spacing={3} >
+                <Grid container spacing={4} >
                     <Grid item  >
-
                         <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 401, minHeight: 401, padding: 2 }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}

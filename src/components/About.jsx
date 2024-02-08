@@ -6,8 +6,9 @@ const About = () => {
     return (
         <>
         <Typography variant='h1' className="hello">
-          HELLO! <Typography variant='h2'>I'm Megan.</Typography>
+        HELLO!
         </Typography>
+       <Typography variant='h2'>I'm Megan.</Typography>
   
         <Box className="aboutContainer">
           <Box className="selfContainer" >

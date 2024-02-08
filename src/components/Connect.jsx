@@ -10,9 +10,9 @@ import ListItemText from '@mui/material/ListItemText';
 import Link from '@mui/material/Link';
 const Connect = () => {
     return (
-        <>
-            <Typography variant='h3'>CONNECT</Typography>
-            <Box className="connectContainer">
+        <Box sx={{textAlign:"center"}}>
+            <Typography variant='h3' sx={{textAlign:"center"}}>CONNECT</Typography>
+            <Box className="connectContainer" sx={{textAlign:"center", justifyContent: "center"}}>
                 <List className="connectList">
                     <ListItemText>Find me here:</ListItemText>
                     <ListItemButton>
@@ -35,7 +35,7 @@ const Connect = () => {
                     </ListItemButton>
                 </List>
             </Box>
-        </>
+        </Box>
 
     );
 };
