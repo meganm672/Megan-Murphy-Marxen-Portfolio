@@ -13,20 +13,22 @@ const Connect = () => {
         <Box sx={{textAlign:"center"}}>
             <Typography variant='h3' sx={{textAlign:"center"}}>CONNECT</Typography>
             <Box className="connectContainer" sx={{textAlign:"center", justifyContent: "center"}}>
-                <List className="connectList">
+                <List className="connectList" >
                     <ListItemText>Find me here:</ListItemText>
-                    <ListItemButton>
-                        <Link href="mailto:meganm672@gmail.com">
+                    <ListItemButton alignItems='center'>
+                        <Link variant='h4' underline="hover" href="mailto:meganm672@gmail.com">
                             <HiOutlineMail /> Email
                         </Link>
                     </ListItemButton>
                     <ListItemButton>
-                        <Link href="https://github.com/meganm672" target="_blank">
+                        <Link variant='h4' underline="hover" href="https://github.com/meganm672" target="_blank">
                             <TbBrandGithub /> GitHub
                         </Link>
                     </ListItemButton>
                     <ListItemButton>
                         <Link
+                        variant='h4'
+                        underline="hover"
                             href="https://www.linkedin.com/in/meganmurphymarxen/"
                             target="_blank"
                         >
