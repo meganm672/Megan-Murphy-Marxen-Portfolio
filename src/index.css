@@ -1,34 +1,38 @@
-body{
+body {
     background-color: lightblue;
 }
-.container{
+
+.container {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
+
 /* Home Secetion */
 .homeContainer {
     margin-top: -50px;
     animation: 1.5s fadein;
-  }
-  
-  @keyframes fadein {
+}
+
+@keyframes fadein {
     from {
-      opacity: 0;
+        opacity: 0;
     }
+
     to {
-      opacity: 1;
+        opacity: 1;
     }
-  }
-  
-  @keyframes fadeout {
+}
+
+@keyframes fadeout {
     from {
-      opacity: 1;
+        opacity: 1;
     }
+
     to {
-      opacity: 0;
+        opacity: 0;
     }
-  }
+}
 
 @keyframes slide {
     from {
@@ -40,6 +44,28 @@ body{
     }
 }
 
+.cake {
+    font-size: 3em;
+}
+
+.close {
+    font-size: 2.5em;
+}
+
+.menuIcon {
+    border: none;
+    background-color: transparent;
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    animation: fadein 1s linear forwards;
+}
+
+.menuIcon:hover {
+    border: none;
+    box-shadow: none;
+}
+
 .nameLogo {
     text-align: center;
     display: flex;
@@ -47,29 +73,32 @@ body{
     justify-content: center;
     width: 100%;
     text-align: center;
-  }
-  
-  .name {
+}
+
+.name {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    margin: 0 25px 0 25px;
-  }
-  
-  .name h1 {
+    margin-top: 1em;
+    padding: .5em;
+}
+
+.name h1 {
     font-family: "Six Caps", sans-serif;
+    font-size: 10em;
+    letter-spacing: 3px;
+    color:rgb(6, 94, 124)
+}
+
+.bigletter {
+    font-family: "Six Caps", sans-serif;
+    letter-spacing: 3px;
     font-size: 15em;
-    letter-spacing: 3px;
-  }
-  
-  .bigletter {
-    font-family: "Six Caps", sans-serif;
-    letter-spacing: 3px;
-    font-size: 35em;
-  }
-  
-  .homeDetails {
+    color:rgb(25, 150, 191)
+}
+
+.homeDetails {
     width: 100%;
     text-align: center;
     letter-spacing: 3px;
@@ -78,68 +107,124 @@ body{
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    margin-top: -75px;
-  }
-  
-  .downArrow {
+    margin-top: 100px;
+}
+
+.downArrow {
     margin-top: 25px;
     animation: MoveUpDown 1.5s linear infinite;
-  }
-  
-  @keyframes MoveUpDown {
+}
+
+@keyframes MoveUpDown {
+
     0%,
     100% {
-      transform: translateY(0);
+        transform: translateY(0);
     }
-    50% {
-      transform: translateY(-10px);
-    }
-  }
-  
 
-  /*About */
-  .about {
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+/* NAVBAR */
+
+.headerContainerFadeIn {
+    width: 35%;
+    height: 150%;
+    background-color: rgb(98, 190, 221);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 10000;
+    transition: opacity .5s;
+    animation: fadein .2s linear forwards;
+}
+
+
+.headerContainerFadeOut {
+    width: 35%;
+    height: 150%;
+    background-color: rgb(98, 190, 221);
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 10000;
+    transition: opacity .5s;
+    animation: fadeout .2s linear forwards;
+}
+
+
+.navContainer {
+    height: 300px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.nav_link {
+    text-decoration: none;
+    padding: 3px;
+    color: rgb(5, 65, 85);
+    font-size: 1.1em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    transition: 0.5s ease-in-out;
+    padding: 5px;
+}
+
+.nav_link:hover {
+    color: white;
+    border-bottom: 3px solid white;
+}
+
+
+
+/*About */
+.about {
     margin-top: 50px;
     margin-left: 50px;
     margin-right: 50px;
-  }
-  
-  .hello {
+}
+
+.hello {
     font-size: 3.5em;
     letter-spacing: 3px;
     text-align: center;
-  }
-  
-  .aboutContainer {
+}
+
+.aboutContainer {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
     letter-spacing: 3px;
-  }
-  
-  .selfContainer {
+}
+
+.selfContainer {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
-  }
-  
-  .self {
+}
+
+.self {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
     object-position: center;
     box-shadow: 5px 10px 18px white;
-  }
-  
-  .start {
+}
+
+.start {
     font-size: 0.75em;
-  }
-  
-  .iconLine {
+}
+
+.iconLine {
     height: 194px;
     margin-top: 15px;
     display: flex;
@@ -147,40 +232,40 @@ body{
     align-items: center;
     justify-content: space-evenly;
     font-size: 25px;
-  }
-  
-  .aboutParagraphs {
+}
+
+.aboutParagraphs {
     width: 30%;
     /* min-width: 300px; */
     padding: 25px;
     text-align: left;
     flex-grow: 2;
-  }
-  
-  .aboutParagraphs p {
+}
+
+.aboutParagraphs p {
     padding-bottom: 25px;
     letter-spacing: 1px;
     color: black;
-  }
+}
 
-  /* projects */
-  .projects {
+/* projects */
+.projects {
     margin-top: 75px;
-  }
-  
-  .projectsContainer {
+}
+
+.projectsContainer {
     width: 100%;
     height: auto;
-  }  
+}
 
-  .projectSection {
+.projectSection {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
     align-items: center;
     letter-spacing: 3px;
     padding: 0 40px 0 40px;
-  } 
+}
 
 /* ToolKit */
 .logos {
@@ -219,26 +304,28 @@ body{
     display: inline-block;
     animation: 35s slide infinite linear;
 }
+
 /* CONNECT */
 
 .connect {
     margin-top: 100px;
-  }
-  
-  .connectContainer {
+}
+
+.connectContainer {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  
-  .connectList {
+}
+
+.connectList {
     margin: 15px 0 30px 0;
     letter-spacing: 3px;
     font-size: 20px;
-  }
-.footer{
+}
+
+.footer {
     background-color: rgb(129, 215, 244);
     margin-top: auto;
     /* position: fixed;

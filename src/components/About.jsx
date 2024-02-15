@@ -18,7 +18,7 @@ const About = () => {
           <Box className="selfContainer" sx={{ textAlign: "center" }}>
             <img className="image" src={MeganMurphyMarxen} />
           </Box>
-          
+
           <Box className="aboutParagraphs">
             <Typography variant='h2' className="sectionTitle" sx={{ textAlign: "center" }}>About Me </Typography>
             <Box>

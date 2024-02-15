@@ -17,7 +17,7 @@ import Grid from '@mui/material/Grid';
 const Projects = () => {
     return (
         <>
-            <Typography variant='h3' sx={{textAlign:"center"}}>PROJECTS</Typography>
+            <Typography variant='h3' sx={{ textAlign: "center" }}>PROJECTS</Typography>
             <Box className="projectSection">
                 <Grid container spacing={4} >
                     <Grid item  >
@@ -33,7 +33,7 @@ const Projects = () => {
                                 <Typography variant='body1'>
                                     A fullstack cat e-commerce application.
                                 </Typography>
-                                <br/>
+                                <br />
                                 <Typography variant='body2'>Javascript | React | MaterialUI | Node | HTML | CSS | React Router | Prisma | Jest | Express | Bcrypt | Jest | Postman</Typography>
                             </CardContent>
                             <CardActions>
@@ -63,7 +63,7 @@ const Projects = () => {
                                 <Typography >
                                     Fully Operational CRUD API with Express.JS and Prisma to create a Tumblr-like website.
                                 </Typography>
-                                <br/>
+                                <br />
                                 <Typography variant='body2'>Javascript | Express | Node | Prisma | PostgreSQL | Bcrypt | Postman</Typography>
                             </CardContent>
                             <CardActions>
@@ -89,7 +89,7 @@ const Projects = () => {
                                 <Typography variant='body1'>
                                     A front end application of an online public library with react.
                                 </Typography>
-                                <br/>
+                                <br />
                                 <Typography variant='body2'>React | CSS | HTML | Redux | React Router | Vite | Node | MaterialUI | JWT </Typography>
                             </CardContent>
                             <CardActions>
@@ -119,7 +119,7 @@ const Projects = () => {
                                 <Typography variant='body1'>
                                     A front end application of puppy bowl players with React.
                                 </Typography>
-                                <br/>
+                                <br />
                                 <Typography variant='body2'>Javascript | HTML | CSS | React | React Router | Vite</Typography>
                             </CardContent>
                             <CardActions>
