@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useRef } from 'react'
 import Connect from './components/Connect';
 import ToolKit from './components/ToolKit';
 import About from './components/About';
@@ -11,11 +11,13 @@ import Resume from './components/Resume';
 import { Routes, Route } from "react-router-dom"
 
 function App() {
-
+  
 
   return (
     <>
-      <Navbar />
+    <div className='container'>
+
+     
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
@@ -26,6 +28,7 @@ function App() {
         <Route path='/footer' element={<Footer />} />
       </Routes>
       <Footer />
+    </div>
     </>
   )
 }

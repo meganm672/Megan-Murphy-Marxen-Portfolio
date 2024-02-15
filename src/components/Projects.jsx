@@ -18,7 +18,7 @@ const Projects = () => {
     return (
         <>
             <Typography variant='h3' sx={{textAlign:"center"}}>PROJECTS</Typography>
-            <Box>
+            <Box className="projectSection">
                 <Grid container spacing={4} >
                     <Grid item  >
                         <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>

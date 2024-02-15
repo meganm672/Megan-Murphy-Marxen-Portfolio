@@ -56,7 +56,7 @@ const navigate = useNavigate
               <MenuItem onClick={handleClose} > <Link to='/'><HomeIcon />Home</Link></MenuItem>
               <MenuItem onClick={handleClose} ><Link to='/about' > About Me</Link></MenuItem>
               <MenuItem onClick={handleClose} ><Link to='/project'>Projects</Link></MenuItem>
-              <MenuItem onClick={handleClose}><Link to='toolkit'>Tools</Link></MenuItem>
+              <MenuItem onClick={handleClose}><Link to='/toolkit'>Tools</Link></MenuItem>
               <MenuItem onClick={handleClose} ><Link to='/resume'>Resume</Link></MenuItem>
               <MenuItem onClick={handleClose}><Link to='/connect'>Connect</Link></MenuItem>
             </Menu>
