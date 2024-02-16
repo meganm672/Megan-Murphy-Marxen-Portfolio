@@ -10,9 +10,9 @@ import ListItemText from '@mui/material/ListItemText';
 import Link from '@mui/material/Link';
 const Connect = () => {
     return (
-        <Box sx={{textAlign:"center"}}>
-            <Typography variant='h3' sx={{textAlign:"center"}}>CONNECT</Typography>
-            <Box className="connectContainer" sx={{textAlign:"center", justifyContent: "center"}}>
+        <Box sx={{ textAlign: "center" }}>
+            <Typography variant='h3' sx={{ textAlign: "center" }}>CONNECT</Typography>
+            <Box className="connectContainer" sx={{ textAlign: "center", justifyContent: "center" }}>
                 <List className="connectList" >
                     <ListItemText sx={{ fontSize: "2em", padding: ".5em" }} disableTypography>Lets Chat:</ListItemText>
                     <ListItemButton alignItems='center'>
@@ -27,8 +27,8 @@ const Connect = () => {
                     </ListItemButton>
                     <ListItemButton>
                         <Link
-                        variant='h4'
-                        underline="hover"
+                            variant='h4'
+                            underline="hover"
                             href="https://www.linkedin.com/in/meganmurphymarxen/"
                             target="_blank"
                         >

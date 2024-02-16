@@ -10,6 +10,7 @@ import { CgMenuCake } from "react-icons/cg";
 import { useRef, useState } from 'react'
 import { Typography } from '@mui/material';
 import { TypeAnimation } from 'react-type-animation';
+import Button from '@mui/material/Button';
 
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
@@ -27,6 +28,7 @@ const Home = () => {
                 <Navigation setShowMenu={setShowMenu} scrollTo={scrollTo} aboutSection={aboutSection} projectSection={projectSection} skillSection={skillSection} contactSection={contactSection} homeSection={homeSection} />
             ) : (
                 <button
+                sx={{float: "right"}}
                     className="menuIcon"
                     onClick={(e) => {
                         e.preventDefault();

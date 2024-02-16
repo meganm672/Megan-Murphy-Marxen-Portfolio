@@ -2,6 +2,7 @@ import React from 'react';
 import { PiCatDuotone } from "react-icons/pi";
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+
 const Footer = () => {
     return (
             <Box className="footer" sx={{textAlign:"center"}}>

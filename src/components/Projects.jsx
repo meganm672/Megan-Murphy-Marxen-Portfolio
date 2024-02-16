@@ -6,6 +6,7 @@ import PuppyBowl from "../assets/PuppyBowl.png";
 import Javascript30 from "../assets/Javascript30.png"
 import { IoIosOpen } from "react-icons/io";
 import { TbBrandGithub } from "react-icons/tb";
+
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -15,6 +16,7 @@ import Typography from '@mui/material/Typography';
 import CardMedia from '@mui/material/CardMedia';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
+
 const Projects = () => {
     return (
         <>
