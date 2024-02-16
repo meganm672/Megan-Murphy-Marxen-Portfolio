@@ -24,7 +24,7 @@ const Projects = () => {
             <Box className="projectSection">
                 <Grid container spacing={4} >
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor: "#F8F2FF" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={WhiskerWorld}
@@ -54,7 +54,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor: "#F8F2FF" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={Juicebox}
@@ -80,7 +80,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor: "#F8F2FF" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={BookBuddies}
@@ -110,7 +110,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor: "#F8F2FF" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={PuppyBowl}
@@ -140,7 +140,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor: "#F8F2FF" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={Javascript30}

@@ -29,7 +29,7 @@ const Home = () => {
                 <Navigation setShowMenu={setShowMenu} scrollTo={scrollTo} aboutSection={aboutSection} projectSection={projectSection} skillSection={skillSection} contactSection={contactSection} homeSection={homeSection} />
             ) : (
                 <button
-                sx={{float: "right"}}
+                    sx={{ float: "right" }}
                     className="menuIcon"
                     onClick={(e) => {
                         e.preventDefault();
@@ -46,13 +46,11 @@ const Home = () => {
                 <div className="nameLogo" ref={homeSection}>
                     <div className="name">
                         <Stack>
-
-                <FaLaptopCode className='iconHome'/>
-                     
-                        <Typography variant='h1'>Megan</Typography>
-                        <Typography variant='h1'>Murphy-Marxen</Typography>
+                            <FaLaptopCode className='iconHome' />
+                            <Typography variant='h1'>Megan</Typography>
+                            <Typography variant='h1'>Murphy-Marxen</Typography>
                         </Stack>
-                        
+
                     </div>
                 </div>
                 <div>
