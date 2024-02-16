@@ -11,7 +11,8 @@ import { useRef, useState } from 'react'
 import { Typography } from '@mui/material';
 import { TypeAnimation } from 'react-type-animation';
 import Button from '@mui/material/Button';
-
+import { FaLaptopCode } from "react-icons/fa";
+import Stack from '@mui/material/Stack';
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
     const homeSection = useRef()
@@ -44,14 +45,14 @@ const Home = () => {
             }}>
                 <div className="nameLogo" ref={homeSection}>
                     <div className="name">
-                        <div className="bigletter">M</div>
-                        <Typography variant='h1'>egan</Typography>
-                    </div>
-                    <div className="name">
-                        <div className="bigletter">M</div>
-                        <Typography variant='h1'>urphy-</Typography>
-                        <div className="bigletter">M</div>
-                        <Typography variant='h1'>arxen</Typography>
+                        <Stack>
+
+                <FaLaptopCode className='iconHome'/>
+                     
+                        <Typography variant='h1'>Megan</Typography>
+                        <Typography variant='h1'>Murphy-Marxen</Typography>
+                        </Stack>
+                        
                     </div>
                 </div>
                 <div>

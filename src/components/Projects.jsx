@@ -24,7 +24,7 @@ const Projects = () => {
             <Box className="projectSection">
                 <Grid container spacing={4} >
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={WhiskerWorld}
@@ -32,7 +32,7 @@ const Projects = () => {
                                 component="img"
                             />
                             <CardContent>
-                                <Typography variant='h4'> Whisker World </Typography>
+                                <Typography className='projectTitle' variant='h4'> Whisker World </Typography>
                                 <Typography variant='body1'>
                                     A fullstack cat e-commerce application.
                                 </Typography>
@@ -54,7 +54,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={Juicebox}
@@ -62,7 +62,7 @@ const Projects = () => {
                                 component="img"
                             />
                             <CardContent>
-                                <Typography variant='h4'> Improved Juicebox</Typography>
+                                <Typography className='projectTitle' variant='h4'> Improved Juicebox</Typography>
                                 <Typography >
                                     Fully Operational CRUD API with Express.JS and Prisma to create a Tumblr-like website.
                                 </Typography>
@@ -80,7 +80,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={BookBuddies}
@@ -88,7 +88,7 @@ const Projects = () => {
                                 component="img"
                             />
                             <CardContent>
-                                <Typography variant='h4'> Book Buddy</Typography>
+                                <Typography className='projectTitle' variant='h4'> Book Buddy</Typography>
                                 <Typography variant='body1'>
                                     A front end application of an online public library with react.
                                 </Typography>
@@ -110,7 +110,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={PuppyBowl}
@@ -118,7 +118,7 @@ const Projects = () => {
                                 component="img"
                             />
                             <CardContent>
-                                <Typography variant='h4'> Puppy Bowl</Typography>
+                                <Typography className='projectTitle' variant='h4'> Puppy Bowl</Typography>
                                 <Typography variant='body1'>
                                     A front end application of puppy bowl players with React.
                                 </Typography>
@@ -140,7 +140,7 @@ const Projects = () => {
                         </Card>
                     </Grid>
                     <Grid item  >
-                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2, backgroundColor:"lavender" }}>
                             <CardMedia
                                 sx={{ height: 180, objectFit: "contain" }}
                                 image={Javascript30}
@@ -148,7 +148,7 @@ const Projects = () => {
                                 component="img"
                             />
                             <CardContent>
-                                <Typography variant='h4'> Javascript 30</Typography>
+                                <Typography className='projectTitle' variant='h4'> Javascript 30</Typography>
                                 <Typography variant='body1'>
                                     30 vanilla Javascript projects compiled into one site.
                                 </Typography>

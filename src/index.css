@@ -17,10 +17,7 @@ button {
     padding-left: 10px;
     padding-right: 10px;
     margin: 5px;
-    /* letter-spacing: 3px;
-    text-align: center; */
-    /* border: 2px solid rgb(212, 50, 50); */
-    /* transition: 0.25s; */
+   
   }
 
 /* Home Secetion */
@@ -89,7 +86,6 @@ button {
     width: 100%;
     text-align: center;
 }
-
 .name {
     display: flex;
     flex-flow: row nowrap;
@@ -101,17 +97,18 @@ button {
 
 .name h1 {
     font-family: "Six Caps", sans-serif;
-    font-size: 10em;
+    font-size: 5em;
     letter-spacing: 3px;
     color:rgb(6, 94, 124)
 }
 
-.bigletter {
-    font-family: "Six Caps", sans-serif;
-    letter-spacing: 3px;
-    font-size: 15em;
-    color:rgb(25, 150, 191)
+.iconHome{
+    font-size: 9em;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
 }
+
 
 .homeDetails {
     width: 100%;
@@ -238,15 +235,6 @@ button {
     font-size: 0.75em;
 }
 
-.iconLine {
-    height: 194px;
-    margin-top: 15px;
-    display: flex;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-evenly;
-    font-size: 25px;
-}
 
 .aboutParagraphs {
     width: 30%;
@@ -263,12 +251,16 @@ button {
 
 /* projects */
 .projects {
-    margin-top: 5em;
+    margin-top:2em;
     margin-bottom: 5em;
     padding-bottom: 1em;
 }
-
-
+.card{
+    max-width: 350; min-width: 350; max-height: 460; min-height: 460; padding: 2; background-color: lavender
+}
+.projectTitle{
+    color:rgb(6, 94, 124)
+}
 .projectSection {
     display: flex;
     flex-flow: row wrap;
@@ -279,12 +271,13 @@ button {
 }
 
 /* ToolKit */
+.scrollTool{
+    margin-top: 2em;
+}
 .logos {
     overflow: hidden;
-    padding: 60px 0;
     white-space: nowrap;
     position: relative;
-    margin-top: 3em;
 }
 
 .logos:before,
@@ -310,9 +303,7 @@ button {
 .logos:hover .skillsContainer {
     animation-play-state: paused;
 }
-.icon{
-    justify-content: space-evenly;
-}
+
 
 .skillsContainer {
     display: inline-block;
@@ -328,7 +319,7 @@ button {
 /* CONNECT */
 
 .connect {
-    margin-top: 5em;
+    margin-top: 2em;
     margin-bottom: 1em;
 }
 
