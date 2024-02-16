@@ -18,7 +18,9 @@ const Home = () => {
     const projectSection = useRef()
     const skillSection = useRef()
     const contactSection = useRef()
+
     const scrollTo = (pageSection) => { window.scrollTo({ top: pageSection.current.offsetTop, behavior: 'smooth', transition: '1s' }); }
+
     return (
         <div>
             {showMenu ? (
@@ -55,11 +57,11 @@ const Home = () => {
                         <div>
                             <TypeAnimation
                                 sequence={[
-                                    "I'm a Fullstack Developer",
+                                    "Fullstack Developer",
                                     2000,
-                                    "I'm a Frontend Developer",
+                                    "Frontend Developer",
                                     2000,
-                                    "I'm a Cat Lover",
+                                    "Cat Lover",
                                     2000,
                                 ]}
                                 speed={200}
@@ -91,8 +93,6 @@ const Home = () => {
             <div className="connect" ref={contactSection}>
                 <Connect />
             </div>
-
-
         </div>
 
     );

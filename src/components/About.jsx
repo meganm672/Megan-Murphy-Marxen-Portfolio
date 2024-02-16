@@ -30,7 +30,7 @@ const About = () => {
               </Typography>
 
               <Typography variant='body1'>
-                My strengths include adaptability , desire to learn and time management.
+                My strengths include adaptability, desire to learn and time management.
                 In my previous career I was called a logistical maven, someone who was
                 able to look at the bigger picture and execute the task at hand.
               </Typography>

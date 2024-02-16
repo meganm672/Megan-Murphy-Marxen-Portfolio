@@ -15,95 +15,234 @@ const ToolKit = () => {
     return (
         <div className='scrollTool'>
         <Box className="logos">
-            <Typography variant='h3' sx={{textAlign:"center"}}>TOOL KIT</Typography>
+            <Typography variant='h3' sx={{textAlign:"center", marginBottom:"1em"}}>TOOL KIT</Typography>
             <Box className="skillsContainer"  >
-                    <List component={Stack} direction="row" spacing={4}  sx={{padding:1}}>
+                    <List component={Stack} direction="row" spacing={4}  sx={{padding:1, justifyContent:"center", textAlign:"center"}} >
                             <ListItem>
-                                <ListItemText >
+                                <ListItemText  className='listItem' disableTypography>
+                                    <Stack>
                                     <SiJavascript className="icon" />
-                                    <ListItemText>Javascript</ListItemText>
+                                    Javascript
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText >
+                                <ListItemText className='listItem' disableTypography >
+                                    <Stack>
                                     <FaNode className="icon" />
-                                    <ListItemText>Node.js</ListItemText>
-                                    <Typography>Express.js</Typography>
+                                    Node.js
+                                    <Stack>
+                                   Express.js
+                                    </Stack>
+                                   </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <GrReactjs className="icon" />
-                                    <ListItemText>React</ListItemText>
+                                     React
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <TbBrandRedux className="icon" />
-                                    <ListItemText>
                                         Redux
-                                    </ListItemText>
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <SiReactrouter className="icon" />
-                                    <ListItemText>
                                         React Router
-                                    </ListItemText>
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <TiHtml5 className="icon" />
-                                    <ListItemText>HTML 5</ListItemText>
+                                  HTML 5
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <TiCss3 className="icon" />
-                                    <ListItemText>CSS 3</ListItemText>
+                                  CSS 3
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <SiMui className="icon" />
-                                    <ListItemText>Material UI</ListItemText>
+                                    Material UI
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <BiLogoGit className="icon" />
-                                    <ListItemText>Git</ListItemText>
+                                   Git
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <FaGithub className="icon" />
-                                    <ListItemText>GitHub</ListItemText>
+                                   GitHub
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+
                                     <SiPrisma className="icon" />
-                                    <ListItemText>Prisma</ListItemText>
+                                    Prisma
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+
                                     <SiPostgresql className="icon" />
-                                    <ListItemText>PostgreSQL</ListItemText>
+                                    PostgreSQL
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                             <ListItem>
-                                <ListItemText>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
                                     <SiPostman className="icon" />
-                                    <ListItemText>Postman</ListItemText>
+                                Postman
+                                    </Stack>
                                 </ListItemText>
                             </ListItem>
                     </List>
             </Box>
             <Box className="skillsContainer"  >
+                    <List component={Stack} direction="row" spacing={4}  sx={{padding:1, justifyContent:"center", textAlign:"center"}} >
+                            <ListItem>
+                                <ListItemText  className='listItem' disableTypography>
+                                    <Stack>
+                                    <SiJavascript className="icon" />
+                                    Javascript
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography >
+                                    <Stack>
+                                    <FaNode className="icon" />
+                                    Node.js
+                                    <Stack>
+                                   Express.js
+                                    </Stack>
+                                   </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <GrReactjs className="icon" />
+                                     React
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <TbBrandRedux className="icon" />
+                                        Redux
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <SiReactrouter className="icon" />
+                                        React Router
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <TiHtml5 className="icon" />
+                                  HTML 5
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <TiCss3 className="icon" />
+                                  CSS 3
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <SiMui className="icon" />
+                                    Material UI
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <BiLogoGit className="icon" />
+                                   Git
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <FaGithub className="icon" />
+                                   GitHub
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+
+                                    <SiPrisma className="icon" />
+                                    Prisma
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+
+                                    <SiPostgresql className="icon" />
+                                    PostgreSQL
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText className='listItem' disableTypography>
+                                    <Stack>
+                                    <SiPostman className="icon" />
+                                Postman
+                                    </Stack>
+                                </ListItemText>
+                            </ListItem>
+                    </List>
+            </Box>
+            {/* <Box className="skillsContainer"  >
                     <List component={Stack} direction="row" spacing={4}  >
                             <ListItem>
                                 <ListItemText >
@@ -204,7 +343,7 @@ const ToolKit = () => {
                                 </ListItemText>
                             </ListItem>
                     </List>
-            </Box>
+            </Box> */}
         </Box>
         </div>
     );

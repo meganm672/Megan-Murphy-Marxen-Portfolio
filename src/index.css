@@ -9,6 +9,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+button {
+    color: rgb(6, 94, 124);
+   
+    padding-top: 6px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    /* letter-spacing: 3px;
+    text-align: center; */
+    /* border: 2px solid rgb(212, 50, 50); */
+    /* transition: 0.25s; */
+  }
 
 /* Home Secetion */
 .homeContainer {
@@ -271,6 +284,7 @@ body {
     padding: 60px 0;
     white-space: nowrap;
     position: relative;
+    margin-top: 3em;
 }
 
 .logos:before,
@@ -296,16 +310,26 @@ body {
 .logos:hover .skillsContainer {
     animation-play-state: paused;
 }
+.icon{
+    justify-content: space-evenly;
+}
 
 .skillsContainer {
     display: inline-block;
     animation: 35s slide infinite linear;
+    padding: 1em;
 }
-
+.listItem{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 2px;
+}
 /* CONNECT */
 
 .connect {
     margin-top: 5em;
+    margin-bottom: 1em;
 }
 
 .connectContainer {

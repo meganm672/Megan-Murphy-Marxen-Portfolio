@@ -14,7 +14,7 @@ const Connect = () => {
             <Typography variant='h3' sx={{textAlign:"center"}}>CONNECT</Typography>
             <Box className="connectContainer" sx={{textAlign:"center", justifyContent: "center"}}>
                 <List className="connectList" >
-                    <ListItemText sx={{ fontSize: "2em" }} disableTypography>Lets Chat:</ListItemText>
+                    <ListItemText sx={{ fontSize: "2em", padding: ".5em" }} disableTypography>Lets Chat:</ListItemText>
                     <ListItemButton alignItems='center'>
                         <Link variant='h4' underline="hover" href="mailto:meganm672@gmail.com">
                             <HiOutlineMail /> Email

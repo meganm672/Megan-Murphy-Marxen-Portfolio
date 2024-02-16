@@ -3,6 +3,7 @@ import WhiskerWorld from "../assets/WhiskerWorld.png";
 import Juicebox from "../assets/Juicebox.png";
 import BookBuddies from "../assets/BookBuddies.png";
 import PuppyBowl from "../assets/PuppyBowl.png";
+import Javascript30 from "../assets/Javascript30.png"
 import { IoIosOpen } from "react-icons/io";
 import { TbBrandGithub } from "react-icons/tb";
 import Box from '@mui/material/Box';
@@ -128,6 +129,36 @@ const Projects = () => {
                                         <IoIosOpen />
                                     </Button></Link>
                                 <Link href="https://github.com/meganm672/Puppy-Bowl-React" target="_blank">
+                                    <Button>
+                                        GitHub
+                                        <TbBrandGithub />
+                                    </Button>
+                                </Link>
+                            </CardActions>
+                        </Card>
+                    </Grid>
+                    <Grid item  >
+                        <Card sx={{ maxWidth: 350, minWidth: 350, maxHeight: 460, minHeight: 460, padding: 2 }}>
+                            <CardMedia
+                                sx={{ height: 180, objectFit: "contain" }}
+                                image={Javascript30}
+                                title="Javascript30"
+                                component="img"
+                            />
+                            <CardContent>
+                                <Typography variant='h4'> Javascript 30</Typography>
+                                <Typography variant='body1'>
+                                    30 vanilla Javascript projects compiled into one site.
+                                </Typography>
+                                <br />
+                                <Typography variant='body2'>Javascript | HTML | CSS | GitHub Pages</Typography>
+                            </CardContent>
+                            <CardActions>
+                                <Link href="https://meganm672.github.io/JavaScript30/" target="_blank">
+                                    <Button>View Site
+                                        <IoIosOpen />
+                                    </Button></Link>
+                                <Link href="https://github.com/meganm672/JavaScript30" target="_blank">
                                     <Button>
                                         GitHub
                                         <TbBrandGithub />
