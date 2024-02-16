@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { CgCloseO } from "react-icons/cg";
-
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
+import Button from '@mui/material/Button';
+import Box from '@mui/material/Box';
 function Navigation({
   setShowMenu,
   scrollTo,
@@ -20,7 +24,7 @@ function Navigation({
     <div
       className={isOpen ? "headerContainerFadeIn" : "headerContainerFadeOut"}
     >
-      <button
+      <Button
         className="menuIcon"
         onClick={(e) => {
           e.preventDefault();
@@ -29,9 +33,10 @@ function Navigation({
         }}
       >
         <CgCloseO className="close" />
-      </button>
-      <nav className="navContainer">
-        <li
+      </Button>
+      <Box className="navContainer" sx={{textAlign:"center", justifyContent: "center"}} >
+      <List className="navContainer">
+        <ListItem
           className="nav_link"
           onClick={() => {
             scrollTo(homeSection);
@@ -39,8 +44,8 @@ function Navigation({
           }}
         >
           Home
-        </li>
-        <li
+        </ListItem>
+        <ListItem
           className="nav_link"
           onClick={() => {
             scrollTo(aboutSection);
@@ -48,8 +53,8 @@ function Navigation({
           }}
         >
           About
-        </li>
-        <li
+        </ListItem>
+        <ListItem
           to="/projects"
           className="nav_link"
           onClick={() => {
@@ -58,8 +63,8 @@ function Navigation({
           }}
         >
           Projects
-        </li>
-        <li
+        </ListItem>
+        <ListItem
           className="nav_link"
           onClick={() => {
             scrollTo(skillSection);
@@ -67,8 +72,8 @@ function Navigation({
           }}
         >
           Tool Kit
-        </li>
-        <li
+        </ListItem>
+        <ListItem
           className="nav_link"
           onClick={() => {
             scrollTo(contactSection);
@@ -76,8 +81,8 @@ function Navigation({
           }}
         >
           Connect
-        </li>
-        <li>
+        </ListItem>
+        <ListItem>
 
          <a
           className="nav_link"
@@ -87,8 +92,9 @@ function Navigation({
         > 
         Resume
         </a>
-        </li>
-      </nav>
+        </ListItem>
+      </List>
+      </Box>
     </div>
   );
 }

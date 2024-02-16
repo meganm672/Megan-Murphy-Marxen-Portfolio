@@ -17,7 +17,7 @@ import Grid from '@mui/material/Grid';
 const Projects = () => {
     return (
         <>
-            <Typography variant='h3' sx={{ textAlign: "center" }}>PROJECTS</Typography>
+            <Typography variant='h3' className='projects' sx={{ textAlign: "center" }}>PROJECTS</Typography>
             <Box className="projectSection">
                 <Grid container spacing={4} >
                     <Grid item  >

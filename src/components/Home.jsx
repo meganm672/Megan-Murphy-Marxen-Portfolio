@@ -9,6 +9,8 @@ import { FaAngleDown } from "react-icons/fa";
 import { CgMenuCake } from "react-icons/cg";
 import { useRef, useState } from 'react'
 import { Typography } from '@mui/material';
+import { TypeAnimation } from 'react-type-animation';
+
 const Home = () => {
     const [showMenu, setShowMenu] = useState(false);
     const homeSection = useRef()
@@ -51,7 +53,19 @@ const Home = () => {
                 <div>
                     <div className="homeDetails">
                         <div>
-                            <i>Fullstack Web Developer</i>
+                            <TypeAnimation
+                                sequence={[
+                                    "I'm a Fullstack Developer",
+                                    2000,
+                                    "I'm a Frontend Developer",
+                                    2000,
+                                    "I'm a Cat Lover",
+                                    2000,
+                                ]}
+                                speed={200}
+                                repeat={Infinity}
+                                style={{ fontSize: '1.5em' }}
+                            />
                         </div>
                         <div className="downArrow" onClick={((e) => {
                             e.preventDefault()
