@@ -12,8 +12,8 @@ const About = () => {
       <Typography variant='h2' sx={{ textAlign: "center" }}>I'm Megan.</Typography>
       <Box className="aboutContainer" >
         <Stack
-          direction="row"
-          spacing={2}
+          direction={{ xs: 'column', sm: 'row' }}
+          spacing={{ xs: 1, sm: 2, md: 4 }}
         >
           <Box className="selfContainer" sx={{ textAlign: "center" }}>
             <img className="image" src={MeganMurphyMarxen} />

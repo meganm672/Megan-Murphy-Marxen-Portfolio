@@ -335,3 +335,108 @@ button {
     background-color: rgb(129, 215, 244);
     margin-top: auto;
 }
+
+@media screen and (max-width: 600px) {
+    /* .iconSkills li {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      margin: 75px 0 20px 0;
+      flex-basis: 50%;
+    }
+  
+      .homeDetails {
+      margin-top: -10px;
+    }
+  
+    .project {
+      height: 350px;
+      width: 350px;
+      font-size: small;
+      margin: 15px;
+    }
+  
+    .iconLine {
+      display: flex;
+      flex-flow: row nowrap;
+      width: 100%;
+      height: auto;
+      margin: 50px 0 15px 0;
+      justify-content: space-evenly;
+      align-items: center;
+    }
+  
+    .aboutParagraphs {
+      flex-flow: row wrap;
+      flex-grow: 1;
+      width: 75%;
+    }
+  
+    .name {
+      margin: 0 5px 0 5px;
+      height: 450px;
+    }
+  
+    .name h1 {
+      font-size: 5em;
+    }
+  
+    .bigletter {
+      font-size: 25em;
+    }
+  
+    .footerContainer {
+      font-size: x-small;
+    } */
+  
+  }
+  
+  @media screen and (max-width: 400px) {
+  
+  .headerContainerFadeIn{
+    width: 100%;
+  }
+  
+  .menuIcon{
+    right: 60px
+  }
+
+  .iconHome{
+    font-size: 7em;
+    padding-top: 100px;
+  }
+  .name h1{
+    font-size: 3em;
+  }
+
+  
+  /* About */
+  
+  .hello h1{
+    font-size: 2em;
+  }
+  /* .project {
+      height: 275px;
+      width: 275px;
+      font-size: x-small;
+      margin: 15px;
+      border-radius: 10%;
+    }
+  
+
+  
+
+
+    .projectImg {
+      border-radius: 10%;
+    }
+  
+    .nav_link {
+      font-size: .75em;
+    }
+  
+    .footerContainer {
+      font-size: xx-small;
+    } */
+  }
