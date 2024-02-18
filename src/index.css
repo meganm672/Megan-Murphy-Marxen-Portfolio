@@ -416,6 +416,15 @@ button {
   .hello h1{
     font-size: 2em;
   }
+
+/* Skills */
+
+.logos:after{
+    background: none;
+}
+.logos:before{
+    background: none;
+}
   /* .project {
       height: 275px;
       width: 275px;

@@ -13,7 +13,7 @@ const About = () => {
       <Box className="aboutContainer" >
         <Stack
           direction={{ xs: 'column', sm: 'row' }}
-          spacing={{ xs: 1, sm: 2, md: 4 }}
+          spacing={{ xs: 2, sm: 3, md: 4 }}
         >
           <Box className="selfContainer" sx={{ textAlign: "center" }}>
             <img className="image" src={MeganMurphyMarxen} />
