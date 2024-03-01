@@ -83,7 +83,7 @@ function Navigation({
           <ListItem>
             <a
               className="nav_link"
-              href="https://docs.google.com/document/d/166MxWhDlYPlfY8ndSUGDC59HziBWlVu4jIVUHzc3aT4/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1WHJRSaq_8sOhoBsXBF43gTQw9s-5ZrtP9X3Apzvaa8o/edit?usp=sharing"
               target="_blank"
               onClick={() => closeMenu()}
             >
